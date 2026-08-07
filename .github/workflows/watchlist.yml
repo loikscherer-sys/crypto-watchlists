@@ -1,0 +1,44 @@
+name: Mise a jour des watchlists DexScreener
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watchlist
+  cancel-in-progress: false
+
+jobs:
+  lire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Installer Playwright
+        run: |
+          npm install playwright@1.49.0
+          npx playwright install --with-deps chromium
+
+      - name: Lire les watchlists
+        run: node scripts/lire-watchlists.mjs
+
+      - name: Publier si la liste a change
+        run: |
+          if [ -n "$(git status --porcelain watchlist.json)" ]; then
+            git config user.name  "watchlist-bot"
+            git config user.email "watchlist-bot@users.noreply.github.com"
+            git add watchlist.json
+            git commit -m "Watchlists mises a jour"
+            git push
+            echo "Liste modifiee et publiee."
+          else
+            echo "Aucun changement."
+          fi
