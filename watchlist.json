@@ -1,5 +1,5 @@
 {
-  "maj": "2026-08-06T00:00:00.000Z",
+  "maj": "2026-08-07T09:27:09.668Z",
   "listes": {
     "2": {
       "nom": "PRO : Radar",
@@ -50,7 +50,8 @@
           "0x13ba5fea7078ab3798fbce53b4d0721c"
         ]
       ],
-      "maj": "2026-08-06T00:00:00.000Z"
+      "maj": "2026-08-06T00:00:00.000Z",
+      "alerte": "lecture impossible le 2026-08-07 09:28"
     },
     "3": {
       "nom": "PRO : Top memecoin",
@@ -85,7 +86,8 @@
           "0xd6b652aecb704b0aebec6317315afb90ba641d57"
         ]
       ],
-      "maj": "2026-08-06T00:00:00.000Z"
+      "maj": "2026-08-06T00:00:00.000Z",
+      "alerte": "lecture impossible le 2026-08-07 09:29"
     }
   }
 }
