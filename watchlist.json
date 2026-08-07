@@ -1,0 +1,91 @@
+{
+  "maj": "2026-08-06T00:00:00.000Z",
+  "listes": {
+    "2": {
+      "nom": "PRO : Radar",
+      "url": "https://dexscreener.com/watchlist/PMLYnaxLe1vK4vDwJh2m",
+      "paires": [
+        [
+          "robinhood",
+          "0x10cc6bd38112cac182db90b6a71d8bb5939526ba"
+        ],
+        [
+          "robinhood",
+          "0xa70fc67c9f69da90b63a0e4c05d229954574e313"
+        ],
+        [
+          "solana",
+          "f42tznkpavq1vucrl6ymhc6yqvpt84fwwgzbntv2wb3w"
+        ],
+        [
+          "robinhood",
+          "0x588b0785f50063260003b7790c42f1ef74902746"
+        ],
+        [
+          "solana",
+          "hnhpjpjgbg2kwnimtnw8cvbhvk1hfog3rc3kjnyc23td"
+        ],
+        [
+          "base",
+          "0x3f0296bf652e19bca772ec3df08b32732f93014a"
+        ],
+        [
+          "base",
+          "0x0c3b466104545efa096b8f944c1e524e1d0d4888"
+        ],
+        [
+          "ton",
+          "eqbcwe_iobxa4mt3rbchil2s4-v4yqs3wudt1-dvzoceemgo"
+        ],
+        [
+          "base",
+          "0x7f31b371ac675bca3357fd9c26854fed067400c0"
+        ],
+        [
+          "robinhood",
+          "0xe40d98d88038e0b844f844dce6ae3c79ec01ec53"
+        ],
+        [
+          "hyperliquid",
+          "0x13ba5fea7078ab3798fbce53b4d0721c"
+        ]
+      ],
+      "maj": "2026-08-06T00:00:00.000Z"
+    },
+    "3": {
+      "nom": "PRO : Top memecoin",
+      "url": "https://dexscreener.com/watchlist/fj98OOqhq9YvwABH9z5F",
+      "paires": [
+        [
+          "robinhood",
+          "0xa70fc67c9f69da90b63a0e4c05d229954574e313"
+        ],
+        [
+          "solana",
+          "4w2cysotx6czaugmmwg13hdpy4qemg2czekyeqyk9ama"
+        ],
+        [
+          "ton",
+          "eqco9ndt4il25_4zphiogmaubrjvpsi9plzqhd8x7etvb7x_"
+        ],
+        [
+          "ton",
+          "eqbcwe_iobxa4mt3rbchil2s4-v4yqs3wudt1-dvzoceemgo"
+        ],
+        [
+          "hyperevm",
+          "0x466f0cd324dcc4ad31053a0bc2013eae7e474420"
+        ],
+        [
+          "solana",
+          "b4vwozy1fgtp8selxsxydwszavpugnj77durv2k4mhuv"
+        ],
+        [
+          "bsc",
+          "0xd6b652aecb704b0aebec6317315afb90ba641d57"
+        ]
+      ],
+      "maj": "2026-08-06T00:00:00.000Z"
+    }
+  }
+}
