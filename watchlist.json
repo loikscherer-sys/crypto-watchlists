@@ -1,5 +1,5 @@
 {
-  "maj": "2026-08-24T18:05:07.879Z",
+  "maj": "2026-08-24T19:47:00.116Z",
   "listes": {
     "2": {
       "nom": "PRO : Radar",
@@ -51,7 +51,7 @@
         ]
       ],
       "maj": "2026-08-06T00:00:00.000Z",
-      "alerte": "lecture impossible le 2026-08-24 18:06"
+      "alerte": "lecture impossible le 2026-08-24 19:48"
     },
     "3": {
       "nom": "PRO : Top memecoin",
@@ -87,7 +87,7 @@
         ]
       ],
       "maj": "2026-08-06T00:00:00.000Z",
-      "alerte": "lecture impossible le 2026-08-24 18:07"
+      "alerte": "lecture impossible le 2026-08-24 19:49"
     }
   }
 }
